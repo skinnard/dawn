@@ -1,8 +1,11 @@
 {{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
 
-<p>Some text in our page that we may want to change.</p>
 
 <div class="contact page-width page-width--narrow spaced-section">
+  
+  <p>Some text in our page that we may want to change.</p>
+
+  
   <h2 class="title">{{ section.settings.heading | escape }}</h2>
   {%- form 'contact', id: 'ContactForm' -%}
     {%- if form.posted_successfully? -%}
