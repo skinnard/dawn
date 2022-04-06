@@ -2,9 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
@@ -24,37 +21,112 @@
       "block_order": [
         "heading",
         "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "title": "Featured products"
+        "desktop_text_box_position": "flex-end"
       }
     },
-    "image_text": {
-      "type": "image-with-text",
+    "rich_text": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
-          "type": "heading"
+          "type": "heading",
+          "settings": {
+          }
         },
         "text": {
-          "type": "text"
+          "type": "text",
+          "settings": {
+          }
         },
         "button": {
-          "type": "button"
+          "type": "button",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
         "button"
-      ]
+      ],
+      "settings": {
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "image_ratio": "square"
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ],
+      "settings": {
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
+    "rich_text",
     "featured_products",
-    "image_text"
+    "collage",
+    "video",
+    "multi_column"
   ]
 }
