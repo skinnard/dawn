@@ -35,12 +35,6 @@
           "default": "Welcome to our store",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
-		{
-          "type": "color",
-          "id": "border_color",
-          "label": "Border",
-          "default": "#ff0000"
-        },
         {
           "type": "select",
           "id": "color_scheme",
@@ -86,10 +80,3 @@
   }
 }
 {% endschema %}
-
-
-{% style %}
-  .announcement-bar {
-    border: 2px solid {{ section.settings.border_color }};
-  }
-{% endstyle %}
