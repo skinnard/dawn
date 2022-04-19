@@ -30,6 +30,12 @@
   "class": "spaced-section spaced-section--full-width",
   "settings": [
     {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ff0000"
+    },
+	{
       "type": "select",
       "id": "color_scheme",
       "options": [
@@ -154,3 +160,9 @@
   ]
 }
 {% endschema %}
+
+{% style %}
+  .hero__background-color-container {
+    background-color: {{ section.settings.background_color }}
+  }
+{% endstyle %}
