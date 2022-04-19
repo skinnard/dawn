@@ -35,6 +35,12 @@
           "default": "Welcome to our store",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
+		{
+          "type": "color_background",
+          "id": "background_color",
+          "label": "Background",
+          "default": "#ff0000"
+        },
         {
           "type": "select",
           "id": "color_scheme",
@@ -80,3 +86,10 @@
   }
 }
 {% endschema %}
+
+
+{% style %}
+  .announcement-bar {
+    background-color: {{ section.settings.background_color }}
+  }
+{% endstyle %}
