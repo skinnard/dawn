@@ -28,6 +28,11 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    
+    {{ 'prototype.js' | global_asset_url | script_tag }}
+    {{ 'controls.js' | global_asset_url | script_tag }}
+    {{ 'dragdrop.js' | global_asset_url | script_tag }}
+    {{ 'effects.js' | global_asset_url | script_tag }}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <!-- starapps_scripts_start -->
