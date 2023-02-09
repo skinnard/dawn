@@ -18,7 +18,7 @@
         "subtitle": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "{{ product.metafields.custom.author_test.value.name.value }}",
             "text_style": "subtitle"
           }
         },
