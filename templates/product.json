@@ -54,6 +54,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "2dd21b44-0b72-4d10-b797-6e86f9663bb2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
         }
       },
       "block_order": [
@@ -65,7 +72,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "2dd21b44-0b72-4d10-b797-6e86f9663bb2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -84,10 +92,45 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "9ac99432-603a-4414-b982-a2cbcffde3e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-0",
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-1",
+        "template--15187244417175__9ac99432-603a-4414-b982-a2cbcffde3e0-167597969628fe3517-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "9ac99432-603a-4414-b982-a2cbcffde3e0"
   ]
 }
